@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D208722258067980041CF35 /* AlertX in Frameworks */ = {isa = PBXBuildFile; productRef = 6D208721258067980041CF35 /* AlertX */; };
 		6DB1266425801A6D006FDA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1266325801A6D006FDA29 /* AppDelegate.swift */; };
 		6DB1266625801A6D006FDA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1266525801A6D006FDA29 /* SceneDelegate.swift */; };
-		6DB1266825801A6D006FDA29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1266725801A6D006FDA29 /* ContentView.swift */; };
 		6DB1266A25801A75006FDA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB1266925801A75006FDA29 /* Assets.xcassets */; };
 		6DB1266D25801A75006FDA29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB1266C25801A75006FDA29 /* Preview Assets.xcassets */; };
 		6DB1267025801A75006FDA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB1266E25801A75006FDA29 /* LaunchScreen.storyboard */; };
+		6DB1267A258023B3006FDA29 /* Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB12679258023B3006FDA29 /* Subview.swift */; };
+		6DB1267E2580283E006FDA29 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1267D2580283E006FDA29 /* OnboardingView.swift */; };
+		6DB1268025802AE9006FDA29 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1267F25802AE9006FDA29 /* PageViewController.swift */; };
+		6DB1268225802F4E006FDA29 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1268125802F4E006FDA29 /* Coordinator.swift */; };
+		6DB1268425804BE9006FDA29 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB1268325804BE8006FDA29 /* PageControl.swift */; };
+		6DB126862580511F006FDA29 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB126852580511F006FDA29 /* HomeView.swift */; };
+		6DB12688258051B3006FDA29 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB12687258051B3006FDA29 /* ViewRouter.swift */; };
+		6DB1268A2580520E006FDA29 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB126892580520E006FDA29 /* MotherView.swift */; };
+		FEB4AE1F91EA9CDEB0CB670C /* Pods_ZapisOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C6DCB2E308BA7DEBA246D7 /* Pods_ZapisOnboarding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		332259713656E58EE26707EE /* Pods-ZapisOnboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapisOnboarding.release.xcconfig"; path = "Target Support Files/Pods-ZapisOnboarding/Pods-ZapisOnboarding.release.xcconfig"; sourceTree = "<group>"; };
 		6DB1266025801A6D006FDA29 /* ZapisOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapisOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB1266325801A6D006FDA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB1266525801A6D006FDA29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DB1266725801A6D006FDA29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DB1266925801A75006FDA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB1266C25801A75006FDA29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DB1266F25801A75006FDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB1267125801A75006FDA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB12679258023B3006FDA29 /* Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subview.swift; sourceTree = "<group>"; };
+		6DB1267D2580283E006FDA29 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6DB1267F25802AE9006FDA29 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		6DB1268125802F4E006FDA29 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6DB1268325804BE8006FDA29 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		6DB126852580511F006FDA29 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DB12687258051B3006FDA29 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		6DB126892580520E006FDA29 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		E8C6DCB2E308BA7DEBA246D7 /* Pods_ZapisOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZapisOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA31C7F797AF82363DDADDE8 /* Pods-ZapisOnboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapisOnboarding.debug.xcconfig"; path = "Target Support Files/Pods-ZapisOnboarding/Pods-ZapisOnboarding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D208722258067980041CF35 /* AlertX in Frameworks */,
+				FEB4AE1F91EA9CDEB0CB670C /* Pods_ZapisOnboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2087232580D9180041CF35 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6D2087252580D96F0041CF35 /* Controllers */,
+				6D2087242580D95C0041CF35 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6D2087242580D95C0041CF35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1267D2580283E006FDA29 /* OnboardingView.swift */,
+				6DB12679258023B3006FDA29 /* Subview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D2087252580D96F0041CF35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1267F25802AE9006FDA29 /* PageViewController.swift */,
+				6DB1268125802F4E006FDA29 /* Coordinator.swift */,
+				6DB1268325804BE8006FDA29 /* PageControl.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		6DB1265725801A6D006FDA29 = {
 			isa = PBXGroup;
 			children = (
 				6DB1266225801A6D006FDA29 /* ZapisOnboarding */,
 				6DB1266125801A6D006FDA29 /* Products */,
+				A0FA32C54737056D81A2D68A /* Pods */,
+				D8C86463A65ADA047B4F4D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +107,16 @@
 		6DB1266225801A6D006FDA29 /* ZapisOnboarding */ = {
 			isa = PBXGroup;
 			children = (
+				6D2087232580D9180041CF35 /* Onboarding */,
 				6DB1266325801A6D006FDA29 /* AppDelegate.swift */,
 				6DB1266525801A6D006FDA29 /* SceneDelegate.swift */,
-				6DB1266725801A6D006FDA29 /* ContentView.swift */,
 				6DB1266925801A75006FDA29 /* Assets.xcassets */,
 				6DB1266E25801A75006FDA29 /* LaunchScreen.storyboard */,
 				6DB1267125801A75006FDA29 /* Info.plist */,
 				6DB1266B25801A75006FDA29 /* Preview Content */,
+				6DB126852580511F006FDA29 /* HomeView.swift */,
+				6DB12687258051B3006FDA29 /* ViewRouter.swift */,
+				6DB126892580520E006FDA29 /* MotherView.swift */,
 			);
 			path = ZapisOnboarding;
 			sourceTree = "<group>";
@@ -75,6 +129,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A0FA32C54737056D81A2D68A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA31C7F797AF82363DDADDE8 /* Pods-ZapisOnboarding.debug.xcconfig */,
+				332259713656E58EE26707EE /* Pods-ZapisOnboarding.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8C86463A65ADA047B4F4D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6DCB2E308BA7DEBA246D7 /* Pods_ZapisOnboarding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +153,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DB1267425801A75006FDA29 /* Build configuration list for PBXNativeTarget "ZapisOnboarding" */;
 			buildPhases = (
+				0CA2266E17A30177CDF28A2C /* [CP] Check Pods Manifest.lock */,
 				6DB1265C25801A6D006FDA29 /* Sources */,
 				6DB1265D25801A6D006FDA29 /* Frameworks */,
 				6DB1265E25801A6D006FDA29 /* Resources */,
+				342E21EEE7D8183D5EE2237C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ZapisOnboarding;
+			packageProductDependencies = (
+				6D208721258067980041CF35 /* AlertX */,
+			);
 			productName = ZapisOnboarding;
 			productReference = 6DB1266025801A6D006FDA29 /* ZapisOnboarding.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 6DB1265725801A6D006FDA29;
+			packageReferences = (
+				6D208720258067980041CF35 /* XCRemoteSwiftPackageReference "AlertX" */,
+			);
 			productRefGroup = 6DB1266125801A6D006FDA29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,14 +220,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CA2266E17A30177CDF28A2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZapisOnboarding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342E21EEE7D8183D5EE2237C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapisOnboarding/Pods-ZapisOnboarding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapisOnboarding/Pods-ZapisOnboarding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZapisOnboarding/Pods-ZapisOnboarding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DB1265C25801A6D006FDA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB12688258051B3006FDA29 /* ViewRouter.swift in Sources */,
 				6DB1266425801A6D006FDA29 /* AppDelegate.swift in Sources */,
+				6DB1268425804BE9006FDA29 /* PageControl.swift in Sources */,
+				6DB1268025802AE9006FDA29 /* PageViewController.swift in Sources */,
+				6DB1268225802F4E006FDA29 /* Coordinator.swift in Sources */,
+				6DB1267A258023B3006FDA29 /* Subview.swift in Sources */,
+				6DB126862580511F006FDA29 /* HomeView.swift in Sources */,
+				6DB1267E2580283E006FDA29 /* OnboardingView.swift in Sources */,
 				6DB1266625801A6D006FDA29 /* SceneDelegate.swift in Sources */,
-				6DB1266825801A6D006FDA29 /* ContentView.swift in Sources */,
+				6DB1268A2580520E006FDA29 /* MotherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +410,7 @@
 		};
 		6DB1267525801A75006FDA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA31C7F797AF82363DDADDE8 /* Pods-ZapisOnboarding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +431,7 @@
 		};
 		6DB1267625801A75006FDA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332259713656E58EE26707EE /* Pods-ZapisOnboarding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +472,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D208720258067980041CF35 /* XCRemoteSwiftPackageReference "AlertX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neel-makhecha/AlertX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D208721258067980041CF35 /* AlertX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D208720258067980041CF35 /* XCRemoteSwiftPackageReference "AlertX" */;
+			productName = AlertX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DB1265825801A6D006FDA29 /* Project object */;
 }

@@ -9,13 +9,22 @@
 import SwiftUI
 
 struct Subview: View {
+    var imageString: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(imageString)
+        .resizable()
+        .aspectRatio(contentMode: .fill)
+        .clipped()
+        
     }
 }
 
+
+#if DEBUG
 struct Subview_Previews: PreviewProvider {
     static var previews: some View {
-        Subview()
+        Subview(imageString: "meditating")
     }
 }
+#endif
+
