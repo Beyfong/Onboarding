@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MotherView.swift
 //  ZapisOnboarding
 //
 //  Created by ablai erzhanov on 12/9/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MotherView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MotherView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MotherView()
     }
 }
